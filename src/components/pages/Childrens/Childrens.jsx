@@ -3,7 +3,9 @@ import "./Childrens.css";
 function Children() {
   return (
     <section>
-      <span data-testid="titleId">hello kids</span>
+      <span className="Children-span" data-testid="titleId">
+        hello kids
+      </span>
     </section>
   );
 }
